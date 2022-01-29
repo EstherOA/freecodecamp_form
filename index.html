@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lambo's Special Cakes | Order Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <main>
+        <h1 id="title">Lambo's Special Cake </h1>
+        <p id="description">Please fill the form below and we'll get back to you soon with your order</p>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" class="form-control"/>        
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" class="form-control"/> 
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Quantity</label>
+                <input id="number" type="number" max="10" min="1" class="form-control"/>     
+            </div>
+            <div class="form-group">
+                <label id="cake-type-label" for="dropdown">Choose the type of cake you want:</label>
+            <select id="dropdown" class="form-control"> 
+                <option selected disabled>Select your cake</option>
+                <option>Sponge cake</option>
+                <option>Fruit cake</option>
+                <option>Cup cake</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <p>How do you get your cake?</p>
+                <label> 
+                    <input type="radio" name=""/>
+                    Pickup
+                </label>
+                <label> 
+                    <input type="radio" name=""/>
+                    Delivery
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Choose at least 3 toppings</p>
+                <label> 
+                    <input type="checkbox" name=""/>
+                    Whipped cream
+                </label>
+                <label>
+                    <input type="checkbox" name=""/>
+                    Sprinkles
+                </label>
+                <label> 
+                    <input type="checkbox" name=""/>
+                    Fruit
+                </label>
+                <label> 
+                    <input type="checkbox" name=""/>
+                    Chocolate syrup
+                </label>
+                <label> 
+                    <input type="checkbox" name=""/>
+                    Candy bits
+                </label>
+            </div>
+            <div class="form-group">
+                <label>Any additional comments or instructions?</label>
+                <textarea class="form-control" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <button>Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Copyright seren.dipite 2022</p>
+    </footer>
+</body>
+</html>
