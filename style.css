@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("/images/chris-kursikowski-0JwCV4Eh4xs-unsplash.jpg") no-repeat;
+    background: url("images/chris-kursikowski-0JwCV4Eh4xs-unsplash.jpg") no-repeat;
     height: fit-content;
     background-position: center;
     background-size: cover;
